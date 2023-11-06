@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTENTS 1"
+        />
+
+    <Button
+        android:id="@+id/b1"
+        android:text="boto crida activitat 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/b2"
+        android:text="boto truca per telefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/b3"
+        android:text="boto google maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/textIntroduit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="text a buscar"
+        />
+
+
+    <Button
+        android:id="@+id/b4"
+        android:text="boto cerca navegador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/textEnvia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="text a buscar"
+        />
+
+    <Button
+        android:id="@+id/bEnvia"
+        android:text="boto envia nom ACIVITAT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/b5"
+        android:text="boto truca per telefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/b6"
+        android:text="boto truca per telefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
